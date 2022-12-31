@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/**************************
+---- BASICS ---
+*************************/
+:root {
+  font-family: "Roboto", Avenir, Helvetica, Arial, sans-serif;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.4;
+  /* font-size: calc(0.6rem + 0.4vw); */
+  /*********************
+  COLORS 
+  *********************/
+  --light-red: #ff5f5f;
+  --dark-red: #9f0000;
+
+  --light-green: #33eb33;
+  --green: #4bd54b;
+  --darker-green: #2e732e;
+  --dark-green: #1b4a1b;
+
+  --grad-purple: rgba(0, 15, 131, 0.5);
+  --grad-blue: rgba(140, 0, 255, 0.5);
+
+  /*********************
+  Sizes
+  *********************/
+  --normal-radius: 0.5rem;
+  --big-radius: 1rem;
+  --biggest-radius: 3rem;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  color: black;
+  min-height: 100vh;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
